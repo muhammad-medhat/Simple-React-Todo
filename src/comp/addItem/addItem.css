@@ -1,1 +1,12 @@
 h2{color: red;font-weight: bolder;}
+form{
+    /* display: flex;
+    justify-content: center;
+    flex: 2 1 auto; */
+    display: grid;
+    row-gap: 10px;
+}
+form input{
+    /* margin: 0 5px;
+    flex: 1; */
+}

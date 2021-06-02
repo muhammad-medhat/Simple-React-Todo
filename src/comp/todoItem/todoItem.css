@@ -3,6 +3,10 @@ h2{color: green}
     border: solid #ddd 1px;
     padding: 10px;
 }
+.items-list li{
+    display: flex;
+}
 .items-list span{
-    margin: auto 10px;
+    border: solid 1px;
+    flex: 1;
 }

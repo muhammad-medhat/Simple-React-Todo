@@ -21,9 +21,19 @@ class AddItem extends Component {
         <>
             <h2>Add Item</h2>
             <form onSubmit={this.submitForm}>
-                <input type='text' id='name' name='name' onChange={this.handleChange} value={this.state.name}/>
-                <input type='number' id='age' name='age' onChange={this.handleChange} value={this.state.age}/>
-                <button>Add</button>
+                <input placeholder='Todo Name' 
+                    type='text' 
+                    id='name' 
+                    name='name' 
+                    onChange={this.handleChange} 
+                    value={this.state.name}/>
+
+                <textarea placeholder='Todo Description' 
+                    id='content' 
+                    name='content' 
+                    onChange={this.handleChange} 
+                    value={this.state.content}/>
+                <button className='btn btn-primary'>Add</button>
             </form>
         </> );
     }
